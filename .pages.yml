@@ -1,0 +1,139 @@
+content:
+- name: site
+  label: إدارة محتوى وضحهالي
+  type: file
+  path: site.json
+  format: json
+  fields:
+  - name: title
+    label: اسم الموقع
+    type: string
+    required: true
+  - name: tagline
+    label: الشعار النصي
+    type: string
+    required: true
+  - name: intro
+    label: المقدمة
+    type: string
+    required: true
+  - name: description
+    label: وصف الموقع
+    type: string
+    required: true
+  - name: story_url
+    label: رابط زر شاهد حكاية
+    type: string
+    required: true
+    pattern:
+      regex: ^https://[^\s]+$
+      message: استخدم رابطًا كاملًا يبدأ بـ https://
+  - name: follow_url
+    label: رابط زر المتابعة
+    type: string
+    required: true
+    pattern:
+      regex: ^https://[^\s]+$
+      message: استخدم رابطًا كاملًا يبدأ بـ https://
+  - name: about_title
+    label: عنوان نبذة الموقع
+    type: string
+    required: true
+  - name: about_text
+    label: نبذة الموقع
+    type: text
+    required: true
+  - name: featured_title
+    label: عنوان الحكاية المميزة
+    type: string
+    required: true
+  - name: featured_label
+    label: نوع الحكاية
+    type: string
+    required: true
+  - name: featured_text
+    label: وصف الحكاية
+    type: text
+    required: true
+  - name: featured_note
+    label: تنويه الحكاية
+    type: string
+    required: true
+  - name: featured_facebook
+    label: رابط الحكاية على فيسبوك
+    type: string
+    required: true
+    pattern:
+      regex: ^https://[^\s]+$
+      message: استخدم رابطًا كاملًا يبدأ بـ https://
+  - name: featured_tiktok
+    label: رابط الحكاية على تيك توك
+    type: string
+    required: true
+    pattern:
+      regex: ^https://[^\s]+$
+      message: استخدم رابطًا كاملًا يبدأ بـ https://
+  - name: channels_intro
+    label: وصف قسم المنصات
+    type: string
+    required: true
+  - name: outro
+    label: الجملة الختامية
+    type: string
+    required: true
+  - name: credit
+    label: اسم صاحب الموقع
+    type: string
+    required: true
+  - name: personal_facebook
+    label: رابط فيسبوك الشخصي
+    type: string
+    required: true
+    pattern:
+      regex: ^https://[^\s]+$
+      message: استخدم رابطًا كاملًا يبدأ بـ https://
+  - name: topics
+    label: أقسام المحتوى
+    type: object
+    list:
+      min: 3
+      max: 3
+      collapsible:
+        summary: '{title}'
+        collapsed: true
+    fields:
+    - name: title
+      label: العنوان
+      type: string
+      required: true
+    - name: description
+      label: الوصف
+      type: text
+      required: true
+  - name: platforms
+    label: روابط المنصات
+    type: object
+    list:
+      min: 6
+      max: 6
+      collapsible:
+        summary: '{title}'
+        collapsed: true
+    fields:
+    - name: platform
+      label: المنصة
+      type: string
+      readonly: true
+    - name: title
+      label: العنوان
+      type: string
+      required: true
+    - name: description
+      label: الوصف
+      type: text
+      required: true
+    - name: url
+      label: الرابط
+      type: string
+      required: true
+      pattern: ^https://[^\s]+$
