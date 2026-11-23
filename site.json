@@ -1,0 +1,72 @@
+{
+  "title": "وضحهالي",
+  "tagline": "للفضول حكاية",
+  "intro": "حكايات تشدك، ومعلومات تقرّب لك الفكرة.",
+  "description": "سؤال صغير ممكن يفتح حكاية كبيرة. هنا بنحكي، ونشرح، ونبص للحاجات المألوفة من زاوية جديدة.",
+  "story_url": "https://www.tiktok.com/@waddahali.official/video/7711240896376737045",
+  "follow_url": "https://www.youtube.com/@waddahali.official",
+  "about_title": "فضولك هو البداية",
+  "about_text": "وضحهالي مساحة للحكايات والشروحات. نحول السؤال إلى فكرة قريبة، والحكاية إلى لحظة تخليك تفكر.",
+  "featured_title": "لو الذكرى ليها ثمن… تختار إيه؟",
+  "featured_label": "قصة خيالية",
+  "featured_text": "حكاية قصيرة عن الاختيار بين المال والذكريات. شاهد القصة، وفكّر: إيه الحاجة اللي ما تتباعش عندك؟",
+  "featured_note": "عمل خيالي، وليس رواية لحدث حقيقي.",
+  "featured_facebook": "https://www.facebook.com/reel/1854929502318296/",
+  "featured_tiktok": "https://www.tiktok.com/@waddahali.official/video/7711240896376737045",
+  "channels_intro": "اختار منصتك وتابع الحكايات والفيديوهات من حسابات البراند.",
+  "outro": "كل حكاية تبدأ بسؤال.",
+  "credit": "محمود السعيد، أبو تيام",
+  "personal_facebook": "https://www.facebook.com/MARSATOP",
+  "topics": [
+    {
+      "title": "معلومة تتفهم",
+      "description": "أسئلة عن العلم والحياة اليومية، بشرح بسيط ورسوم توضح الفكرة."
+    },
+    {
+      "title": "حكاية تسيب أثر",
+      "description": "قصص أصلية وشخصيات ومواقف تفتح باب الخيال. القصص الخيالية بنوضح إنها خيالية."
+    },
+    {
+      "title": "فيديو على قد وقتك",
+      "description": "من الحكاية القصيرة للشرح الأطول، اختار المنصة والشكل اللي يناسبك."
+    }
+  ],
+  "platforms": [
+    {
+      "title": "يوتيوب",
+      "description": "قناتنا للفيديوهات والشروحات.",
+      "url": "https://www.youtube.com/@waddahali.official",
+      "platform": "YouTube"
+    },
+    {
+      "title": "فيسبوك",
+      "description": "قصص ومعلومات وفيديوهات في مكان واحد.",
+      "url": "https://www.facebook.com/profile.php?id=61596675458252",
+      "platform": "Facebook"
+    },
+    {
+      "title": "ديلي موشن",
+      "description": "تابع وضحهالي على ديلي موشن.",
+      "url": "https://www.dailymotion.com/user/waddahali.official",
+      "platform": "Dailymotion"
+    },
+    {
+      "title": "تيك توك",
+      "description": "حكايات قصيرة وجرعة فضول سريعة.",
+      "url": "https://www.tiktok.com/@waddahali.official",
+      "platform": "TikTok"
+    },
+    {
+      "title": "فيميو",
+      "description": "شاهد حكايات وضحهالي على فيميو.",
+      "url": "https://vimeo.com/waddahali",
+      "platform": "Vimeo"
+    },
+    {
+      "title": "إنستجرام",
+      "description": "تابع حساب وضحهالي على إنستجرام.",
+      "url": "https://www.instagram.com/waddahali.official",
+      "platform": "Instagram"
+    }
+  ]
+}
