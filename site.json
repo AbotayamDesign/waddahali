@@ -1,6 +1,6 @@
 {
   "title": "وضحهالي",
-  "tagline": "للفضول حكاية",
+  "tagline": "للفضول حكاية ",
   "intro": "حكايات تشدك، ومعلومات تقرّب لك الفكرة.",
   "description": "سؤال صغير ممكن يفتح حكاية كبيرة. هنا بنحكي، ونشرح، ونبص للحاجات المألوفة من زاوية جديدة.",
   "story_url": "https://www.tiktok.com/@waddahali.official/video/7711240896376737045",
@@ -33,40 +33,40 @@
   ],
   "platforms": [
     {
+      "platform": "YouTube",
       "title": "يوتيوب",
       "description": "قناتنا للفيديوهات والشروحات.",
-      "url": "https://www.youtube.com/@waddahali.official",
-      "platform": "YouTube"
+      "url": "https://www.youtube.com/@waddahali.official"
     },
     {
+      "platform": "Facebook",
       "title": "فيسبوك",
       "description": "قصص ومعلومات وفيديوهات في مكان واحد.",
-      "url": "https://www.facebook.com/profile.php?id=61596675458252",
-      "platform": "Facebook"
+      "url": "https://www.facebook.com/profile.php?id=61596675458252"
     },
     {
+      "platform": "Dailymotion",
       "title": "ديلي موشن",
       "description": "تابع وضحهالي على ديلي موشن.",
-      "url": "https://www.dailymotion.com/user/waddahali.official",
-      "platform": "Dailymotion"
+      "url": "https://www.dailymotion.com/user/waddahali.official"
     },
     {
+      "platform": "TikTok",
       "title": "تيك توك",
       "description": "حكايات قصيرة وجرعة فضول سريعة.",
-      "url": "https://www.tiktok.com/@waddahali.official",
-      "platform": "TikTok"
+      "url": "https://www.tiktok.com/@waddahali.official"
     },
     {
+      "platform": "Vimeo",
       "title": "فيميو",
       "description": "شاهد حكايات وضحهالي على فيميو.",
-      "url": "https://vimeo.com/waddahali",
-      "platform": "Vimeo"
+      "url": "https://vimeo.com/waddahali"
     },
     {
+      "platform": "Instagram",
       "title": "إنستجرام",
       "description": "تابع حساب وضحهالي على إنستجرام.",
-      "url": "https://www.instagram.com/waddahali.official",
-      "platform": "Instagram"
+      "url": "https://www.instagram.com/waddahali.official"
     }
   ]
 }
