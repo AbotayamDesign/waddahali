@@ -137,6 +137,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 </div>
 </section>
 <div class="wh-outro"><p data-site="outro">كل حكاية تبدأ بسؤال.</p><a href="https://www.youtube.com/@waddahali.official" rel="noopener noreferrer" target="_blank">خلّي فضولك صاحي ↗</a></div>
-<footer><div class="wh-credit"><span data-site="credit">محمود السعيد، أبو تيام</span><a data-site="personal_facebook" href="https://www.facebook.com/MARSATOP" rel="noopener noreferrer" target="_blank">فيسبوك الشخصي ↗</a></div></footer>
+<footer><div class="wh-credit"><span data-site="credit">محمود السعيد، أبو تيام</span><a data-site="personal_facebook" href="https://www.facebook.com/MARSATOP" rel="noopener noreferrer" target="_blank">فيسبوك الشخصي ↗</a></div><p style="margin-top:24px;font-size:13px"><a href="https://app.pagescms.org/abotayamdesign/waddahali/main/file/site" rel="noopener noreferrer" target="_blank" style="color:#a9bfc4;text-decoration:none">إدارة الموقع</a></p></footer>
 </div>
 </main><script>fetch('./site.json', {cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('Content unavailable');return r.json()}).then(data=>{document.querySelectorAll('[data-site]').forEach(el=>{const value=el.dataset.site.split('.').reduce((o,k)=>o?.[k],data);if(typeof value!=='string')return;if(el.tagName==='A'){try{const u=new URL(value);if(u.protocol==='https:')el.href=u.href;}catch{}}else{el.textContent=value;}});if(typeof data.title==='string')document.title=data.title+' | حكايات ومعلومات وشروحات';}).catch(()=>{});</script></body></html>
